@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nestora
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.6.
@@ -57,3 +58,7 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# NESTORA
+Nestora is a modern furniture &amp; home decor e-commerce web application built with Angular, featuring a clean, responsive interface for discovering, browsing, and managing furniture products.
+>>>>>>> c2c125787c75089d890e3c3d034afe40f0179a31
