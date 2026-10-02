@@ -1,64 +1,90 @@
-<<<<<<< HEAD
-# Nestora
+NESTORA
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.6.
+Nestora is a modern Furniture & Home Decor E-Commerce Web Application built with Angular 22.
 
-## Development server
+The platform provides a clean, elegant, and responsive shopping experience for discovering, browsing, and exploring furniture and home decor products.
 
-To start a local development server, run:
+ Features
 
-```bash
+- Modern and responsive user interface
+- Furniture and home decor product browsing
+- Product categories
+- Product details
+- Search and filtering
+- Responsive design for desktop, tablet, and mobile
+- Reusable Angular components
+- Organized feature-based project structure
+- Modern Angular standalone architecture
+
+ Technologies
+
+- Angular 22
+- TypeScript
+- HTML5
+- CSS3
+- Bootstrap
+- Angular Router
+- RxJS
+
+ Project Structure
+
+src/
+├── app/
+│   ├── core/
+│   │   ├── guards/
+│   │   ├── services/
+│   │   └── models/
+│   │
+│   ├── shared/
+│   │   ├── components/
+│   │   ├── pipes/
+│   │   └── directives/
+│   │
+│   └── features/
+│
+├── assets/
+└── styles.css
+
+ Development Server
+
+Install the project dependencies:
+
+npm install
+
+Run the development server:
+
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Then open:
 
-## Code scaffolding
+http://localhost:4200/
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+The application automatically reloads whenever you modify the source files.
 
-```bash
-ng generate component component-name
-```
+ Build
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+To build the project for production:
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
 ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+The production build will be generated inside the "dist/" directory.
 
-## Running unit tests
+ Testing
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Run unit tests using Vitest:
 
-```bash
 ng test
-```
 
-## Running end-to-end tests
+ Team
 
-For end-to-end (e2e) testing, run:
+Nestora is developed as a collaborative Front-End project using Angular.
 
-```bash
-ng e2e
-```
+ Project Status
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+In Development
 
-## Additional Resources
+The project is continuously being developed and improved with additional features, UI enhancements, and e-commerce functionality.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-# NESTORA
-Nestora is a modern furniture &amp; home decor e-commerce web application built with Angular, featuring a clean, responsive interface for discovering, browsing, and managing furniture products.
->>>>>>> c2c125787c75089d890e3c3d034afe40f0179a31
+ License
+
+This project is developed for educational and portfolio purposes.
